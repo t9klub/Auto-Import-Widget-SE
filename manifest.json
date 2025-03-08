@@ -1,15 +1,14 @@
 {
    "action": {
       "default_popup": "popup.html",
-      "default_title": "Auto Import StreamElement"
+      "default_title": "widget.io (unofficial patch)"
    },
    "author": "Anonim",
    "content_scripts": [ {
       "js": [ "js/jquery-3.6.3.min.js", "js/jszip.min.js", "js/FileSaver.js", "script.js" ],
-      "matches": [ "https://*.streamelements.com/overlay/*" ],
-      "css" : ["css/monaco.css"]
+      "matches": [ "https://*.streamelements.com/overlay/*" ]
    } ],
-   "description": "A simple Streamelements addon to automate and simplify widget import and export.",
+   "description": "Hello this is extension edited from original version, edited: @touru9klub",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
@@ -18,10 +17,10 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlhbMJ/RfpstGTFVl/8sV/lq3WZveLBr+lnpqQAOrzJrfxrats3e6V+vOCQqTPvwYP5Usx/IL9EnA/sV1q+gFpZZRM63ushNPbaJ3aadpfOaUcrumETn7D6YwMdGAtbJNNqDPj8flabgogj+dzSETl3EaEB/qyce+Fg3MUQCxFlI+qnNIPMg7HArK3Nm38ba2RyTFH9Ty392Y1OpwEHAWyqrLaOb0/BdFsA24jmVkUoY8Xpqtp4nS6z4pV6bv0TNDar5dfdmCyNNnSvkxtuuJ298sS0BkfSbs5cn78LYkz4X0V1bIkEo0WwKqD1kRHd8VbrXYDpW2tfgC9XzoN6ag0wIDAQAB",
    "manifest_version": 3,
-   "name": "Auto Import StreamElement",
+   "name": "widget.io (unofficial patch)",
    "permissions": [  ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.3",
+   "version": "1.2.5",
    "web_accessible_resources": [ {
       "matches": [ "https://streamelements.com/*" ],
       "resources": [ "js/jszip.min.js", "js/FileSaver.js", "handleCode.js"]
